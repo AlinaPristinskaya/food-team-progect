@@ -32,22 +32,21 @@ img {
 
 address {
   font-style: normal;
-
 }
-body{
-    font-family:"Roboto", sans-serif;
-    font-style: normal;
-    color: #2C2C2C;
-    background: #FEFEFE;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #2c2c2c;
+  background: #fefefe;
 }
 .container {
-    max-width: 1280px;
-    padding: 0 16px;
-    margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 .header {
-  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
 }
 
 .header-container {
@@ -77,13 +76,13 @@ body{
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-  color: #BBF330;
+  color: #bbf330;
   text-decoration: underline;
 }
 
 .nav-button {
   font-family: Roboto;
-  background: #BBF330;
+  background: #bbf330;
   text-align: right;
   font-size: 13px;
   font-weight: 500;
@@ -94,114 +93,157 @@ body{
 .nav-button:hover,
 .nav-button:focus,
 .nav-button:active {
-  background: #FFE450;
+  background: #ffe450;
+}
+/* Favorites  Section 3  */
+.favorites {
+  background: #fefefe;
+  padding: 100px 16px;
+}
+.container-favorites {
+  width: 1280px;
+  margin: 0 auto;
+}
+.favorites-title {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  width: 656px;
+  margin: 0 auto 20px;
+}
+.favorites-text {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 656px;
+  margin: 0 auto 40px;
+}
+.favorites-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.list-item:hover .favorites-image {
+  border: 16px solid #bbf330;
+}
+.list-item-midle {
+}
+.favorites-image {
+  padding: 41px 40px;
+  border-radius: 197.5px;
+  border: 16px solid #ffe550;
+  background: #fefefe;
+  transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.favorites-image-midle {
+  padding-left: 39px;
+  border-radius: 197px;
 }
 
 /* style section customers */
 
-.customers{
-    background-color: #FFE450;
-    padding-top: 140px;
-    padding-bottom: 126px;
+.customers {
+  background-color: #ffe450;
+  padding-top: 140px;
+  padding-bottom: 126px;
 }
-.title{
-
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 20px;
+.title {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
 }
-.subscribe{
-
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 32px;
+.subscribe {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
 }
-.rating{
-    display: flex;
-    margin-bottom: 29px;
+.rating {
+  display: flex;
+  margin-bottom: 29px;
 }
-.coment{
-    display: flex;
-    justify-content: space-between;
-   
-
+.coment {
+  display: flex;
+  justify-content: space-between;
 }
-.coment-item{
-    background-color: #FEFEFE;
-    padding: 14px;
-    width: calc((100% - 140px) / 2);
-    border-radius: 30px;
-    border-top-left-radius: 0;
-
+.coment-item {
+  background-color: #fefefe;
+  padding: 14px;
+  width: calc((100% - 140px) / 2);
+  border-radius: 30px;
+  border-top-left-radius: 0;
 }
-.coment-description{
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 41px;
+.coment-description {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 41px;
 }
-.person{
-    
-    display: flex;
-    align-items: center;
+.person {
+  display: flex;
+  align-items: center;
 }
-.person::after{
-    content:"";
-    width: 1px;
-    height: 52px;
-    background-color: #7EB101;
+.person::after {
+  content: '';
+  width: 1px;
+  height: 52px;
+  background-color: #7eb101;
 }
-.person-name{
-    padding-left: 16px;
-    padding-right: 16px;
+.person-name {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-.foto{
-    width: 48px;
-    height: 48px;
+.foto {
+  width: 48px;
+  height: 48px;
 }
-.name{
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 21px */
+.name {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
 }
-.personcoment{
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21px */
-} 
-
-
-
- /* section subscribe  */
-
- 
- .title-subscribe{
-  color: #2C2C2C;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 120%;
-    /* 50.4px */
- }
- .paragraph-subscribe{
- color: #2C2C2C;
- font-size: 16px;
- font-weight: 400;
- line-height: 150%;
- /* 24px */
+.personcoment {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
 }
-.button-subscribe{
-  color: #2C2C2C;
-    font-family: inherit;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 150%;
-    /* 19.5px */
+
+/* section subscribe  */
+
+.title-subscribe {
+  color: #2c2c2c;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 120%;
+  /* 50.4px */
+}
+.paragraph-subscribe {
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+}
+.button-subscribe {
+  color: #2c2c2c;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 150%;
+  /* 19.5px */
 }
