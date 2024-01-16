@@ -136,8 +136,7 @@ body {
 .list-item:hover .favorites-image {
   border: 16px solid #bbf330;
 }
-.list-item-midle {
-}
+
 .favorites-image {
   padding: 41px 40px;
   border-radius: 197.5px;
