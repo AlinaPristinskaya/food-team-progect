@@ -167,8 +167,12 @@ body {
 }
 
 /* OFFERING Anastasiia */
-.offering {
+.offering{
   background-color: #ffe550;
+
+}
+.offering-flex{
+  
   display: flex;
   align-items: center;
   padding-top: 113px;
