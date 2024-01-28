@@ -1,0 +1,116 @@
+.section-subscribe {
+    padding-top: 176px;
+    padding-bottom: 176px;
+  }
+  
+  .title-subscribe {
+    color: #2c2c2c;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 120%;
+    /* 50.4px */
+  }
+  
+  .paragraph-subscribe {
+    color: #2c2c2c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+  }
+  
+  .button-subscribe {
+    color: #2c2c2c;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    /* 19.5px */
+  }
+  
+  .all-contant-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title-subscribe-one {
+    color: var(--Black, #2c2c2c);
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 50.4px */
+  }
+  
+  .paragraph-subscribe {
+    max-width: 532px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    color: #2c2c2c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+  }
+  
+  input {
+    font-family: inherit;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-label {
+    padding-right: 32px;
+  }
+  
+  .form-input:placeholder-shown {
+    border-color: #ffe550;
+  }
+  
+  .form-input {
+    width: 395px;
+    padding: 12px 57px 12px 12px;
+    border-radius: 30px;
+    border: 0.854px solid #7eb101;
+    background: #fefefe;
+    outline: none;
+  }
+  
+  .button-sub {
+    display: inline-flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c2c;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    /* 19.5px */
+    border: none;
+    border-radius: 30px;
+    background: #bbf330;
+  }
+  
+  .button-sub:hover {
+    background: #ffe450;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
