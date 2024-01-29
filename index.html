@@ -16,13 +16,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header.css">
+    <!-- <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/offering.css">
     <link rel="stylesheet" href="./css/favorites.css">
     <link rel="stylesheet" href="./css/customers.css">
     <link rel="stylesheet" href="./css/subscribe.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/footer.css"> -->
+    <link rel="stylesheet" href="./css/modal-window.css"> 
   </head>
 <body>
     <!-- header Alona-->
@@ -307,6 +308,31 @@
 
         </div>
     </footer>
+    <div class="backdrop is-open"><!-- додаємо  модальне вікно is-open >-->
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="11" height="11">
+            <use href="./images/icons.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label class="modal-label" for="user-name">Name</label>
+            <input class="modal-input" type="text" name="user-name" id="user-name" placeholder="Your name">
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-tel">Phone number</label>
+            <input class="modal-input" type="tel" name="user-tel" required id="user-tel" placeholder="+38(0_ _) _ _ _ _ _ _ _"> 
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-email">E-mail</label>
+            <input class="modal-input" type="email" name="user-email" id="user-email-modal" placeholder="example@gmail.com">
+          </div>
+          <button type="submit" class="modal-send-btn">Send</button>
+        </form>
+      </div>
+    </div>
 
   </body>
 </html>
